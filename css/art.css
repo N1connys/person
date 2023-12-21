@@ -1,0 +1,127 @@
+.text {
+  text-align: center;
+}
+
+.cennn {
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mainbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+
+body {
+  background-color: #495579
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+
+  grid-template-columns: 580px 580px;
+  grid-template-rows: 200px 200px 200px;
+  display: grid;
+  gap: 24px;
+}
+
+.flex {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+
+
+}
+
+.flex:hover {
+  transition: 0.5s;
+  box-shadow: 4px 4px black;
+}
+
+.flex1 {
+  display: flex;
+  margin: auto auto;
+  width: 85%;
+  height: 60%;
+  gap: 20px;
+}
+
+img {
+  border: 2px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+.img {
+
+  flex: 1;
+}
+
+.page {
+
+  padding-bottom: 50px;
+  flex: 5;
+}
+
+.pp {
+  margin-top: 20px;
+  font-size: var(--fs-17);
+
+}
+
+
+.main11 {
+
+  position: relative;
+  top: 100px;
+
+}
+
+.container>div:nth-child(1) {
+  background-color: hsl(177, 39%, 72%)
+}
+
+.container>div:nth-child(2) {
+  background-color: hsl(41, 99%, 64%)
+}
+
+.container>div:nth-child(3) {
+  background-color: hsl(19, 97%, 85%)
+}
+
+.container>div:nth-child(4) {
+  background-color: hsl(221, 100%, 79%)
+}
+
+.container>div:nth-child(5) {
+  background-color: hsl(76, 39%, 72%)
+}
+
+.container>div:nth-child(6) {
+  background-color: hsl(245, 100%, 90%)
+}
+
+
+.headp {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(228, 148, 44);
+  position: absolute;
+  left: 45%;
+  top: 6%;
+  font-family: 'simple';
+}
+.pp
+{
+  text-align: justify;
+  font-family: "PingFang SC";
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="password" name="lastname">
+</form>
+<textarea name="11" id="11" cols="30" rows="10">kfjsdfksahfs</textarea>
+<!-- col 列数，row 行数 -->
+<!-- 复选框 -->
+<input type="checkbox" name="111" value="dasdasd" checked="checked">
+<form action="save.php" method="post" >
+    <label> 爱好 :</label>
+    <select>
+    <option value=" 看书 "> 看书 </option>
+    <option value=" 旅游 " > 旅游 </option>
+    <option value=" 运动 "selected="selected"> 运动 </option>
+    <option value=" 购物 "> 购物 </option>
+    </select>
+    <input type="submit" value="tijiao">
+    <input type="reset" value="chongzhi">
+</form>
+
+
+    <table>
+        <caption>学生信息表</caption>
+        <tr>
+            <th><input type="checkbox" name="cb" id="firstcb"></th>
+            <th>编号</th>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>操作</th>
+        </tr>
+    
+        <tr>
+            <td><input type="checkbox" name="cb"></td>
+            <td>1</td>
+            <td>令狐冲</td>
+            <td>男</td>
+            <td><a href="javascript:void(0);" onclick="miss(this)">删除</a></td>
+        </tr>
+    
+        <tr>
+            <td><input type="checkbox" name="cb"></td>
+            <td>2</td>
+            <td>任我行</td>
+            <td>男</td>
+            <td><a href="javascript:void(0);" onclick="miss(this)">删除</a></td>
+        </tr>
+    
+        <tr>
+            <td><input type="checkbox" name="cb"></td>
+            <td>3</td>
+            <td>岳不群</td>
+            <td>?</td>
+            <td><a href="javascript:void(0);" onclick="miss(this)">删除</a></td>
+        </tr>
+    
+    </table>
+    <div>
+        <input type="button" id="selectAll" value="全选">
+        <input type="button" id="unSelectAll" value="全不选">
+        <input type="button" id="selectRev" value="反选">
+    </div>
+</body>
+    <script>
+        windows.onload=function()
+        {
+            document.getElementById("selectAll").onclick=function()
+            {
+                var k=document.ge
+            }
+        }
+    </script>
+</html>
